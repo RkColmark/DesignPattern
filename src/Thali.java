@@ -27,8 +27,8 @@ public class Thali {
     private boolean khir;
 
     private boolean gulabJamun;
-
-    public Thali(CustomThali customThali) {
+//we have made this private so that we can block direct object creation of Thali
+    private Thali(CustomThali customThali) {
         this.rice = customThali.rice;
         this.dal = customThali.dal;
         this.achar = customThali.achar;
